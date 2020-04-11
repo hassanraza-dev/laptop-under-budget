@@ -4,13 +4,24 @@
     margin: 0px;
    
 }
+p
+{
+    font-size: 18px;
+    text-align: justify;
+}
+a{
+    color: black;
+    text-decoration: none;
+    font-size: 12px;
+}
 .cover
 {
-    /* width: 100%; */
-    background-color: #111111;
-    height: 200px;
+    
+    background-position: center;
+    height: 300px;
     text-align: center;
-    padding: 22px;
+    padding-top: 20px;
+
 }
 
 .nav-cstm
@@ -21,13 +32,17 @@
   z-index: 10;
   box-shadow: 0px 2px 5px darkgray;
   color: black;
-  font-weight: bolder;
+  
+}
+.nav-cstm a
+{
+    font-size: 17px;
 }
 .content
 {
     height: 2000px;
     margin: 0 auto;
-    width: 95%;
+    width: 90%;
     
 
 
@@ -57,7 +72,7 @@
     width: 100%;
     padding: 0px;
     margin: 0px; 
-    margin-bottom: 120px;
+    margin-bottom: 100px;
     
 }
 .cstm
@@ -67,16 +82,17 @@
      background-position: center;
      background-size: cover;
      border: solid 1px white;
-     /* filter: grayscale(100%); */
      transition: .5s;
      padding: 0px;
      box-shadow: 2px 3px 5px gray;
      
 }
-.cstm:hover
+.cstm:hover,a:hover
 {
    
-	transform: scale(.95);
+    transform: scale(.95);
+    text-decoration: none;
+    color: black;
 }
 .inner-div
 {
@@ -86,4 +102,32 @@
     width: 250px;
     padding: 2px;
     
+}
+.reviews
+{
+    padding-right: 30px;
+}
+
+.comments
+{
+    float:left;
+    color: black;
+    padding: 2px;
+     
+}
+.subs
+{
+    border: 2px dotted brown;
+    
+    padding: 20px;
+    width: 85%;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+.f
+{
+    height: 500px;
+    background-color: cadetblue;
+    width: 101px;
+
 }
