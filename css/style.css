@@ -14,6 +14,11 @@ a{
     text-decoration: none;
     font-size: 12px;
 }
+h4, h1
+{
+    font-family: 'Montserrat', sans-serif;
+    /* font-weight: 100; */
+}
 .cover
 {
     
@@ -21,7 +26,7 @@ a{
     height: 200px;
     text-align: center;
     padding-top: 20px;
-    background-color: skyblue;
+    background-color: black;
     width: 100%;
 
 }
@@ -44,7 +49,8 @@ a{
 {
 
     margin: 0 auto;
-    width: 90%;
+    width: 94%;
+    margin-top: -40px;
     
 
 
@@ -87,6 +93,7 @@ a{
      transition: .5s;
      padding: 0px;
      box-shadow: 2px 3px 5px gray;
+     
      
 }
 .cstm:hover,a:hover
@@ -145,10 +152,24 @@ ul li
     margin-top: 20px;
     font-size: 17px;
     padding: 2px;
-    color: white;
+    color: black;
    
 }
 ul li:hover
 {
     color:#B42A78;   
+}
+.copyright
+{
+    /* height: 150px; */
+    /* background-color: lightgray; */
+    padding: 30px;
+    color: gray;
+}
+.up,.up img
+{
+    
+    float: right;
+    
+
 }
