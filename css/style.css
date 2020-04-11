@@ -22,6 +22,7 @@ a{
     text-align: center;
     padding-top: 20px;
     background-color: skyblue;
+    width: 100%;
 
 }
 
@@ -41,7 +42,7 @@ a{
 }
 .content
 {
-    height: 2000px;
+
     margin: 0 auto;
     width: 90%;
     
@@ -125,10 +126,29 @@ a{
     margin: 0 auto;
     margin-top: 20px;
 }
-.f
-{
-    height: 500px;
-    background-color: cadetblue;
-    width: 101px;
 
+
+.cstm-footer
+{
+    
+    padding: 50px;
+    color: white;
+    
+}
+.cstm-footer h5
+{
+    color:#B42A78;
+}
+ul li
+{
+    list-style: none;
+    margin-top: 20px;
+    font-size: 17px;
+    padding: 2px;
+    color: white;
+   
+}
+ul li:hover
+{
+    color:#B42A78;   
 }
